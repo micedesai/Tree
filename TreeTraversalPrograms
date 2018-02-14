@@ -1,10 +1,13 @@
-Level Order Traversal
-Vertical Tree Traversal
-Inorder Traversal   - Recursive
-Inorder Traversal   - Iterative
-PreOrder Traversal  - Recursive
-PreOrder Traversal  - Iterative
-PostOrder Traversal - Recursive
-PostOrder Traversal - Iterative
-Boundary Traversal
-Spiral Order Traversal
+Level Order Traversal           - Recursive   Done!!
+Vertical Tree Traversal         - Recursive   Done!!
+Inorder Traversal               - Recursive   Done!!
+PreOrder Traversal              - Recursive   Done!!
+PostOrder Traversal             - Recursive   Done!!
+Boundary Traversal              - Recursive   Done!!
+Spiral Order Traversal          - Recursive   Done!! 
+Inorder Traversal               - Iterative
+PreOrder Traversal              - Iterative
+PostOrder Traversal             - Iterative
+Level Order Traversal           - Iterative
+Vertical Tree Traversal         - Iterative
+Spiral or Zigzag Traversal      - Iterative
