@@ -20,7 +20,8 @@ struct node* newNode ( int element) {
 
 
 void printLeaf( struct node *root) {
-	 if ( root == NULL)
+	
+	if ( root == NULL)
 	 	return;
  	
  	if (( root->left == NULL ) && ( root -> right == NULL )) {
@@ -77,13 +78,13 @@ void boundaryRightTraversal ( node *root) {
 	 if ( root->right != NULL) {
         
 		 boundaryRightTraversal(root->right);
-	     printf ("\n %d ", root->element);
+	        printf ("\n %d ", root->element);
 
 	 } else { 
 	   		  if ( root->left != NULL) {
 	   		     //
 	   		     // Please note for bottom up, you call into recursive function first and then print
-     	         //
+     	                     //
 	   		  	 boundaryRightTraversal(root->left);
 	   		  	 printf ("\n %d ", root->element);
 	 		  }
@@ -106,9 +107,9 @@ int main() {
     root->right->right->right = newNode(9);
      
      // Print Root first
-	 printf(" %d", root->element);
+     printf(" %d", root->element);
      
-	 // Print top down all the left subtree boundary node   
+     // Print top down all the left subtree boundary node   
      boundaryLeftTraversal(root->left);
      
      // Print leaf nodes of the left subtree from left to right
@@ -125,3 +126,14 @@ return 0;
 }
 
 // Complexity of the program is O(n) 
+
+Output :
+
+ 1
+ 2
+ 4
+ 5
+ 8
+ 9
+ 7
+ 3
