@@ -83,4 +83,24 @@ int main() {
 return 0;
 }
 
+
+
 // Complexity of the program is O(n^2) 
+//
+// Output
+//
+
+ Min = -2 Max = 3
+	 
+ Level = -2
+  4
+ Level = -1
+  2
+ Level = 0
+  1  5  6
+ Level = 1
+  3  8
+ Level = 2
+  7
+ Level = 3
+  9
